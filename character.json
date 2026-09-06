@@ -1,5 +1,5 @@
 {
-  "publishedAt": "2026-09-06T05:23:22.888Z",
+  "publishedAt": "2026-09-06T06:10:39.287Z",
   "character": {
     "id": "38ea9ea5-5162-45ef-9c66-6c0c6b9fbccb",
     "name": "Gnome Paladin",
@@ -308,7 +308,7 @@
         "armourAC": 0,
         "id": "f6d78d01-1e96-4074-ac89-484c989e198a",
         "name": "Rations (days)",
-        "qty": 9,
+        "qty": 8,
         "unitWeight": 2,
         "location": "backpack",
         "consumable": true,
@@ -525,6 +525,13 @@
       "recoveredSelf": false
     },
     "xpLog": [
+      {
+        "id": "bf993b8c-ce36-40a9-9897-13a947b8b37f",
+        "label": "Cockatrice",
+        "amount": 50,
+        "kind": "kill",
+        "earnsXP": true
+      },
       {
         "id": "edaa81e1-78f1-487b-af27-30630e7e857f",
         "label": "Showing up",
