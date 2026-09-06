@@ -1,1 +1,566 @@
-{"publishedAt":"2026-09-06T04:46:45.433Z","character":{"id":"71e4a141-a4bf-4901-a545-8ade1944cc7f","name":"Gnome Paladin","race":"Rock Gnome","klass":"Paladin","level":1,"background":"Folk Hero","alignment":"Lawful Good","deity":"Gaerdal Ironhand","size":"Small","baseSpeed":25,"abilities":{"str":17,"dex":15,"con":15,"int":12,"wis":11,"cha":15},"overrides":{"profBonus":null,"ac":null,"initiative":null,"passivePerception":null,"speed":null},"saves":{"str":{"prof":false,"override":null},"dex":{"prof":false,"override":null},"con":{"prof":false,"override":null},"int":{"prof":false,"override":null},"wis":{"prof":true,"override":null},"cha":{"prof":true,"override":null}},"skills":{"acrobatics":{"prof":false,"expertise":false,"override":null},"animalHandling":{"prof":true,"expertise":false,"override":null},"arcana":{"prof":false,"expertise":false,"override":null},"athletics":{"prof":true,"expertise":false,"override":null},"deception":{"prof":false,"expertise":false,"override":null},"history":{"prof":false,"expertise":false,"override":null},"insight":{"prof":false,"expertise":false,"override":null},"intimidation":{"prof":false,"expertise":false,"override":null},"investigation":{"prof":false,"expertise":false,"override":null},"medicine":{"prof":true,"expertise":false,"override":null},"nature":{"prof":false,"expertise":false,"override":null},"perception":{"prof":false,"expertise":false,"override":null},"performance":{"prof":false,"expertise":false,"override":null},"persuasion":{"prof":false,"expertise":false,"override":null},"religion":{"prof":false,"expertise":false,"override":null},"sleightOfHand":{"prof":false,"expertise":false,"override":null},"stealth":{"prof":false,"expertise":false,"override":null},"survival":{"prof":true,"expertise":false,"override":null}},"attacks":[{"id":"2572a779-67b7-47b7-81cd-1988de340f6e","name":"Longsword","ability":"str","addProf":true,"damageDice":"1d8","damageType":"slashing","heavy":false,"toHitOverride":null,"damageOverride":null,"notes":"Versatile 1d10 — not used with a shield."},{"id":"1339afba-1205-46b6-84b9-9df37c49873b","name":"Javelin","ability":"str","addProf":true,"damageDice":"1d6","damageType":"piercing","heavy":false,"toHitOverride":null,"damageOverride":null,"notes":"Thrown 30/120."},{"id":"b3ae1704-0219-411f-afd6-187661a53ad7","name":"Unarmed strike","ability":"str","addProf":true,"damageDice":"1","damageType":"bludgeoning","heavy":false,"toHitOverride":null,"damageOverride":null,"notes":"Base 1 from Small size (house rule), plus STR mod."}],"inventory":[{"armour":"heavy","armourAC":16,"id":"c9d878c1-546f-4e3d-b671-f099eca15b02","name":"Chain mail","qty":1,"unitWeight":55,"location":"worn","consumable":false,"magicArmour":false,"notes":""},{"armour":"shield","armourAC":2,"id":"53534e0a-3735-4603-b533-d217d537cac6","name":"Shield","qty":1,"unitWeight":6,"location":"inHand","consumable":false,"magicArmour":false,"notes":""},{"armour":"none","armourAC":0,"id":"bddc0601-8642-4129-a6bf-cdb6956c753e","name":"Longsword","qty":1,"unitWeight":3,"location":"worn","consumable":false,"magicArmour":false,"notes":""},{"armour":"none","armourAC":0,"id":"80a1dc6e-380c-405f-b9d7-64d71e6341d6","name":"Javelin","qty":5,"unitWeight":2,"location":"worn","consumable":false,"magicArmour":false,"notes":""},{"armour":"none","armourAC":0,"id":"3484d057-5d84-4219-b558-13f3fe060d1c","name":"Holy symbol amulet","qty":1,"unitWeight":1,"location":"worn","consumable":false,"magicArmour":false,"notes":"Gaerdal Ironhand."},{"armour":"none","armourAC":0,"id":"45585bde-ba19-4c2b-9e5b-71e83483f15b","name":"Backpack","qty":1,"unitWeight":5,"location":"backpack","consumable":false,"magicArmour":false,"notes":""},{"armour":"none","armourAC":0,"id":"dcfe26b1-d845-426f-a736-55b5d467daed","name":"Bedroll","qty":1,"unitWeight":7,"location":"backpack","consumable":false,"magicArmour":false,"notes":"Required for a short rest."},{"armour":"none","armourAC":0,"id":"98152189-b418-40ca-af34-cc43d1c64e60","name":"Mess kit","qty":1,"unitWeight":1,"location":"backpack","consumable":false,"magicArmour":false,"notes":""},{"armour":"none","armourAC":0,"id":"b0db0a4a-9d69-4f61-9db8-b9b1e4063164","name":"Tinderbox","qty":1,"unitWeight":1,"location":"backpack","consumable":false,"magicArmour":false,"notes":""},{"armour":"none","armourAC":0,"id":"38390fd5-64bc-4693-a98e-db7f3b7802e5","name":"Torch","qty":10,"unitWeight":1,"location":"backpack","consumable":true,"magicArmour":false,"notes":"No darkvision — this is your light."},{"armour":"none","armourAC":0,"id":"002d285f-a3f3-4ce6-b845-16ae003ee86e","name":"Rations (days)","qty":10,"unitWeight":2,"location":"backpack","consumable":true,"magicArmour":false,"notes":""},{"armour":"none","armourAC":0,"id":"4855ba58-49e8-4d73-a62e-41c9a2144db1","name":"Waterskin","qty":1,"unitWeight":5,"location":"backpack","consumable":true,"magicArmour":false,"notes":"Full."},{"armour":"none","armourAC":0,"id":"ea720d4e-b531-4d96-936e-8b6ae29f93f2","name":"Hempen rope (50 ft)","qty":1,"unitWeight":10,"location":"backpack","consumable":false,"magicArmour":false,"notes":""},{"armour":"none","armourAC":0,"id":"aa12c30c-7562-403c-8a53-736a46c5cd76","name":"Smith's tools","qty":1,"unitWeight":8,"location":"backpack","consumable":false,"magicArmour":false,"notes":""},{"armour":"none","armourAC":0,"id":"b06bdd9a-61ab-4859-8bab-02729a4fc9c5","name":"Tinker's tools","qty":1,"unitWeight":10,"location":"backpack","consumable":false,"magicArmour":false,"notes":"Needed for the Tinker trait."},{"armour":"none","armourAC":0,"id":"63cd2e27-ed84-4443-b65d-d6f25e4b63c5","name":"Shovel","qty":1,"unitWeight":5,"location":"backpack","consumable":false,"magicArmour":false,"notes":""},{"armour":"none","armourAC":0,"id":"bc156bd1-f3b3-4646-bee4-5728a7aeb8a8","name":"Iron pot","qty":1,"unitWeight":10,"location":"backpack","consumable":false,"magicArmour":false,"notes":""},{"armour":"none","armourAC":0,"id":"e187368c-9c1c-4461-a29c-0c204e5037a6","name":"Common clothes","qty":1,"unitWeight":3,"location":"worn","consumable":false,"magicArmour":false,"notes":""},{"armour":"none","armourAC":0,"id":"5240ab25-284c-4bd9-bee6-e227443e1d85","name":"Belt pouch","qty":1,"unitWeight":1,"location":"worn","consumable":false,"magicArmour":false,"notes":""}],"coins":{"pp":0,"gp":10,"ep":0,"sp":0,"cp":0},"hp":{"current":12,"max":12,"temp":0},"hitDice":{"die":"d10","total":1,"spent":0},"resources":[{"id":"4dea63c4-7b53-4685-b7e4-e9d9cc6680c2","name":"Lay on Hands","mode":"pool","max":5,"current":5,"reset":"long","unit":"HP","notes":"Does NOT cure poison in this campaign, and does not cure disease."},{"id":"0405d83d-a9bd-4630-89eb-c9a7a4764251","name":"Divine Sense","mode":"uses","max":3,"current":3,"reset":"long","unit":"uses","notes":""}],"spellSlots":[],"preparedSpells":[],"prepQueue":[],"deathState":{"down":false,"turnsPassed":0,"saves":[],"dead":false,"stabilised":false,"stabilisedFailures":0,"hadAdvantage":false,"recoveredSelf":false},"xpLog":[],"xpOverride":null,"text":{"features":"Divine Sense (3/long rest): detect celestial, fiend or undead within 60 ft, and consecrated or desecrated places or objects.\n\nLay on Hands (pool of 5 HP, long rest): restore HP by touch. Does not cure poison or disease in this campaign.","traits":"NO DARKVISION — house rule, no race in this campaign has it. Carry torches.\n\nGnome Cunning: advantage on INT, WIS and CHA saving throws against magic.\n\nArtificer's Lore: add twice your proficiency bonus to History checks about magic items, alchemical objects or technological devices.\n\nTinker: 1 hour + tinker’s tools + 10 gp of materials makes a Tiny clockwork device (AC 5, 1 HP) that lasts 24 hours.","backgroundText":"Folk Hero. Skill proficiencies: Animal Handling, Survival. Tool proficiencies: one type of artisan’s tools, vehicles (land).\n\nFeature: Rustic Hospitality — common folk will shelter and hide you.","languages":"Common, Gnomish","tools":"Tinker's tools, Smith's tools, Vehicles (land)"}}}
+{
+  "publishedAt": "2026-09-06T05:22:18.314Z",
+  "character": {
+    "id": "38ea9ea5-5162-45ef-9c66-6c0c6b9fbccb",
+    "name": "Gnome Paladin",
+    "race": "Rock Gnome",
+    "klass": "Paladin",
+    "level": 1,
+    "background": "Folk Hero",
+    "alignment": "Lawful Good",
+    "deity": "Gaerdal Ironhand",
+    "size": "Small",
+    "baseSpeed": 25,
+    "abilities": {
+      "str": 17,
+      "dex": 15,
+      "con": 15,
+      "int": 12,
+      "wis": 11,
+      "cha": 15
+    },
+    "overrides": {
+      "profBonus": null,
+      "ac": null,
+      "initiative": null,
+      "passivePerception": null,
+      "speed": null
+    },
+    "saves": {
+      "str": {
+        "prof": false,
+        "override": null
+      },
+      "dex": {
+        "prof": false,
+        "override": null
+      },
+      "con": {
+        "prof": false,
+        "override": null
+      },
+      "int": {
+        "prof": false,
+        "override": null
+      },
+      "wis": {
+        "prof": true,
+        "override": null
+      },
+      "cha": {
+        "prof": true,
+        "override": null
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "prof": false,
+        "expertise": false,
+        "override": null
+      },
+      "animalHandling": {
+        "prof": true,
+        "expertise": false,
+        "override": null
+      },
+      "arcana": {
+        "prof": false,
+        "expertise": false,
+        "override": null
+      },
+      "athletics": {
+        "prof": true,
+        "expertise": false,
+        "override": null
+      },
+      "deception": {
+        "prof": false,
+        "expertise": false,
+        "override": null
+      },
+      "history": {
+        "prof": false,
+        "expertise": false,
+        "override": null
+      },
+      "insight": {
+        "prof": false,
+        "expertise": false,
+        "override": null
+      },
+      "intimidation": {
+        "prof": false,
+        "expertise": false,
+        "override": null
+      },
+      "investigation": {
+        "prof": false,
+        "expertise": false,
+        "override": null
+      },
+      "medicine": {
+        "prof": true,
+        "expertise": false,
+        "override": null
+      },
+      "nature": {
+        "prof": false,
+        "expertise": false,
+        "override": null
+      },
+      "perception": {
+        "prof": false,
+        "expertise": false,
+        "override": null
+      },
+      "performance": {
+        "prof": false,
+        "expertise": false,
+        "override": null
+      },
+      "persuasion": {
+        "prof": false,
+        "expertise": false,
+        "override": null
+      },
+      "religion": {
+        "prof": false,
+        "expertise": false,
+        "override": null
+      },
+      "sleightOfHand": {
+        "prof": false,
+        "expertise": false,
+        "override": null
+      },
+      "stealth": {
+        "prof": false,
+        "expertise": false,
+        "override": null
+      },
+      "survival": {
+        "prof": true,
+        "expertise": false,
+        "override": null
+      }
+    },
+    "attacks": [
+      {
+        "id": "fefc0ef9-c822-4fba-a940-fe588a671d03",
+        "name": "Longsword",
+        "ability": "str",
+        "addProf": true,
+        "damageDice": "1d8",
+        "damageType": "slashing",
+        "heavy": false,
+        "toHitOverride": null,
+        "damageOverride": null,
+        "notes": "Versatile 1d10 — not used with a shield."
+      },
+      {
+        "id": "d6d6ff3c-99ae-4128-b27d-cb6cc670ac07",
+        "name": "Javelin",
+        "ability": "str",
+        "addProf": true,
+        "damageDice": "1d6",
+        "damageType": "piercing",
+        "heavy": false,
+        "toHitOverride": null,
+        "damageOverride": null,
+        "notes": "Thrown 30/120."
+      },
+      {
+        "id": "8cf7c40a-bf7c-4448-b01b-c5b5bb28633a",
+        "name": "Unarmed strike",
+        "ability": "str",
+        "addProf": true,
+        "damageDice": "1",
+        "damageType": "bludgeoning",
+        "heavy": false,
+        "toHitOverride": null,
+        "damageOverride": null,
+        "notes": "Base 1 from Small size (house rule), plus STR mod."
+      }
+    ],
+    "inventory": [
+      {
+        "armour": "heavy",
+        "armourAC": 16,
+        "id": "b9360a4b-acfd-4bd2-b4fe-18980e0e5f01",
+        "name": "Chain mail",
+        "qty": 1,
+        "unitWeight": 55,
+        "location": "worn",
+        "consumable": false,
+        "magicArmour": false,
+        "notes": ""
+      },
+      {
+        "armour": "shield",
+        "armourAC": 2,
+        "id": "9d745e55-81c4-444d-b5ad-4df12582a924",
+        "name": "Shield",
+        "qty": 1,
+        "unitWeight": 6,
+        "location": "inHand",
+        "consumable": false,
+        "magicArmour": false,
+        "notes": ""
+      },
+      {
+        "armour": "none",
+        "armourAC": 0,
+        "id": "7b54aaf2-8fcd-4128-9ebb-9a3bb662faef",
+        "name": "Longsword",
+        "qty": 1,
+        "unitWeight": 3,
+        "location": "worn",
+        "consumable": false,
+        "magicArmour": false,
+        "notes": ""
+      },
+      {
+        "armour": "none",
+        "armourAC": 0,
+        "id": "dd25ea6d-57d0-4f91-87a9-823c07e6ccf0",
+        "name": "Javelin",
+        "qty": 5,
+        "unitWeight": 2,
+        "location": "worn",
+        "consumable": false,
+        "magicArmour": false,
+        "notes": ""
+      },
+      {
+        "armour": "none",
+        "armourAC": 0,
+        "id": "d7dbc41a-239b-481c-b768-61c912d36fce",
+        "name": "Holy symbol amulet",
+        "qty": 1,
+        "unitWeight": 1,
+        "location": "worn",
+        "consumable": false,
+        "magicArmour": false,
+        "notes": "Gaerdal Ironhand."
+      },
+      {
+        "armour": "none",
+        "armourAC": 0,
+        "id": "0f069f77-e0b4-4a49-afac-582bb9dc5dd2",
+        "name": "Backpack",
+        "qty": 1,
+        "unitWeight": 5,
+        "location": "backpack",
+        "consumable": false,
+        "magicArmour": false,
+        "notes": ""
+      },
+      {
+        "armour": "none",
+        "armourAC": 0,
+        "id": "f6380271-e3d3-4371-9d94-f66f99de97bd",
+        "name": "Bedroll",
+        "qty": 1,
+        "unitWeight": 7,
+        "location": "backpack",
+        "consumable": false,
+        "magicArmour": false,
+        "notes": "Required for a short rest."
+      },
+      {
+        "armour": "none",
+        "armourAC": 0,
+        "id": "0e6186da-3e80-4514-a05e-34a36108a939",
+        "name": "Mess kit",
+        "qty": 1,
+        "unitWeight": 1,
+        "location": "backpack",
+        "consumable": false,
+        "magicArmour": false,
+        "notes": ""
+      },
+      {
+        "armour": "none",
+        "armourAC": 0,
+        "id": "20d30449-0330-4bdf-9d15-fead4c13a3f9",
+        "name": "Tinderbox",
+        "qty": 1,
+        "unitWeight": 1,
+        "location": "backpack",
+        "consumable": false,
+        "magicArmour": false,
+        "notes": ""
+      },
+      {
+        "armour": "none",
+        "armourAC": 0,
+        "id": "f0d6523d-03d6-46d5-8a03-341d16744a7b",
+        "name": "Torch",
+        "qty": 9,
+        "unitWeight": 1,
+        "location": "backpack",
+        "consumable": true,
+        "magicArmour": false,
+        "notes": "No darkvision — this is your light."
+      },
+      {
+        "armour": "none",
+        "armourAC": 0,
+        "id": "f6d78d01-1e96-4074-ac89-484c989e198a",
+        "name": "Rations (days)",
+        "qty": 9,
+        "unitWeight": 2,
+        "location": "backpack",
+        "consumable": true,
+        "magicArmour": false,
+        "notes": ""
+      },
+      {
+        "armour": "none",
+        "armourAC": 0,
+        "id": "d8a82882-8ca1-460e-a963-5cbbf24acb00",
+        "name": "Waterskin",
+        "qty": 1,
+        "unitWeight": 5,
+        "location": "backpack",
+        "consumable": true,
+        "magicArmour": false,
+        "notes": "Full."
+      },
+      {
+        "armour": "none",
+        "armourAC": 0,
+        "id": "589e4a1e-c76e-4668-acbd-b9c0a469d953",
+        "name": "Hempen rope (50 ft)",
+        "qty": 3,
+        "unitWeight": 10,
+        "location": "backpack",
+        "consumable": true,
+        "magicArmour": false,
+        "notes": ""
+      },
+      {
+        "armour": "none",
+        "armourAC": 0,
+        "id": "ef2f049b-d1c8-4782-9a88-67da7c5ebf7f",
+        "name": "Smith's tools",
+        "qty": 1,
+        "unitWeight": 8,
+        "location": "backpack",
+        "consumable": false,
+        "magicArmour": false,
+        "notes": ""
+      },
+      {
+        "armour": "none",
+        "armourAC": 0,
+        "id": "91e20ca2-9a84-411c-b0e8-1f3fb749a762",
+        "name": "Tinker's tools",
+        "qty": 1,
+        "unitWeight": 10,
+        "location": "backpack",
+        "consumable": false,
+        "magicArmour": false,
+        "notes": "Needed for the Tinker trait."
+      },
+      {
+        "armour": "none",
+        "armourAC": 0,
+        "id": "426306d3-482d-4163-a001-bf75eb244a32",
+        "name": "Shovel",
+        "qty": 1,
+        "unitWeight": 5,
+        "location": "backpack",
+        "consumable": false,
+        "magicArmour": false,
+        "notes": ""
+      },
+      {
+        "armour": "none",
+        "armourAC": 0,
+        "id": "b85b110c-9fdf-48d5-9600-b63a2a725994",
+        "name": "Iron pot",
+        "qty": 1,
+        "unitWeight": 10,
+        "location": "backpack",
+        "consumable": false,
+        "magicArmour": false,
+        "notes": ""
+      },
+      {
+        "armour": "none",
+        "armourAC": 0,
+        "id": "f3e1ca0e-6324-4a54-a6a9-9dd7609e7693",
+        "name": "Common clothes",
+        "qty": 1,
+        "unitWeight": 3,
+        "location": "worn",
+        "consumable": false,
+        "magicArmour": false,
+        "notes": ""
+      },
+      {
+        "armour": "none",
+        "armourAC": 0,
+        "id": "dfedccdf-2a67-4286-b833-38f6e1a3ba34",
+        "name": "Belt pouch",
+        "qty": 1,
+        "unitWeight": 1,
+        "location": "worn",
+        "consumable": false,
+        "magicArmour": false,
+        "notes": ""
+      },
+      {
+        "armour": "none",
+        "armourAC": 0,
+        "id": "57e1aa2c-a4c1-4fc9-a199-382bddbc9558",
+        "name": "Music Box",
+        "qty": 1,
+        "unitWeight": 0,
+        "location": "backpack",
+        "consumable": false,
+        "magicArmour": false,
+        "notes": ""
+      },
+      {
+        "armour": "none",
+        "armourAC": 0,
+        "id": "2acae665-7c75-4cf6-a857-0f31b9b0ee37",
+        "name": "Broken Oil Lamp",
+        "qty": 1,
+        "unitWeight": 2,
+        "location": "backpack",
+        "consumable": false,
+        "magicArmour": false,
+        "notes": ""
+      },
+      {
+        "armour": "none",
+        "armourAC": 0,
+        "id": "f5a20369-5394-4e8e-a22d-81a0b9a99644",
+        "name": "Spear",
+        "qty": 1,
+        "unitWeight": 3,
+        "location": "backpack",
+        "consumable": false,
+        "magicArmour": false,
+        "notes": ""
+      },
+      {
+        "armour": "none",
+        "armourAC": 0,
+        "id": "b0f9c988-b54e-458c-8872-ee40dd75ccb0",
+        "name": "Dagger - 2GP",
+        "qty": 3,
+        "unitWeight": 1,
+        "location": "backpack",
+        "consumable": false,
+        "magicArmour": false,
+        "notes": ""
+      },
+      {
+        "armour": "none",
+        "armourAC": 0,
+        "id": "0100d4e9-2c04-4738-a566-a51f4d64147f",
+        "name": "Fine Clothing",
+        "qty": 1,
+        "unitWeight": 6,
+        "location": "backpack",
+        "consumable": false,
+        "magicArmour": false,
+        "notes": ""
+      }
+    ],
+    "coins": {
+      "pp": 0,
+      "gp": 15,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "hp": {
+      "current": 12,
+      "max": 12,
+      "temp": 0
+    },
+    "hitDice": {
+      "die": "d10",
+      "total": 1,
+      "spent": 0
+    },
+    "resources": [
+      {
+        "id": "8e2ad695-0d90-46e7-90ed-2f001aee22d2",
+        "name": "Lay on Hands",
+        "mode": "pool",
+        "max": 5,
+        "current": 5,
+        "reset": "long",
+        "unit": "HP",
+        "notes": "Does NOT cure poison in this campaign, and does not cure disease."
+      },
+      {
+        "id": "92544413-db22-4aec-9962-0d2b867a5442",
+        "name": "Divine Sense",
+        "mode": "uses",
+        "max": 3,
+        "current": 3,
+        "reset": "long",
+        "unit": "uses",
+        "notes": ""
+      }
+    ],
+    "spellSlots": [],
+    "preparedSpells": [],
+    "prepQueue": [],
+    "deathState": {
+      "down": false,
+      "turnsPassed": 0,
+      "saves": [],
+      "dead": false,
+      "stabilised": false,
+      "stabilisedFailures": 0,
+      "hadAdvantage": false,
+      "recoveredSelf": false
+    },
+    "xpLog": [
+      {
+        "id": "edaa81e1-78f1-487b-af27-30630e7e857f",
+        "label": "Showing up",
+        "amount": 110,
+        "kind": "clever",
+        "earnsXP": true
+      },
+      {
+        "id": "36a5e122-dfc7-4b39-aa21-8c78e2d29211",
+        "label": "Showing up",
+        "amount": 100,
+        "kind": "clever",
+        "earnsXP": true
+      },
+      {
+        "id": "57fa36e3-04e1-4a04-b19a-2a5b2ad57c93",
+        "label": "Slime Monster",
+        "amount": 20,
+        "kind": "kill",
+        "earnsXP": true
+      },
+      {
+        "id": "4c31d666-9fde-4161-9ef0-bc72ee61906a",
+        "label": "Fire giant",
+        "amount": 30,
+        "kind": "kill",
+        "earnsXP": true
+      }
+    ],
+    "xpOverride": null,
+    "text": {
+      "features": "Divine Sense (3/long rest): detect celestial, fiend or undead within 60 ft, and consecrated or desecrated places or objects.\n\nLay on Hands (pool of 5 HP, long rest): restore HP by touch. Does not cure poison or disease in this campaign.",
+      "traits": "NO DARKVISION — house rule, no race in this campaign has it. Carry torches.\n\nGnome Cunning: advantage on INT, WIS and CHA saving throws against magic.\n\nArtificer's Lore: add twice your proficiency bonus to History checks about magic items, alchemical objects or technological devices.\n\nTinker: 1 hour + tinker’s tools + 10 gp of materials makes a Tiny clockwork device (AC 5, 1 HP) that lasts 24 hours.",
+      "backgroundText": "Folk Hero. Skill proficiencies: Animal Handling, Survival. Tool proficiencies: one type of artisan’s tools, vehicles (land).\n\nFeature: Rustic Hospitality — common folk will shelter and hide you.",
+      "languages": "Common, Gnomish",
+      "tools": "Tinker's tools, Smith's tools, Vehicles (land)"
+    }
+  }
+}
