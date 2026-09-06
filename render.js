@@ -1,4 +1,4 @@
-// The ?v=1788672138314 suffixes are rewritten to the publish timestamp by
+// The ?v=1788672202888 suffixes are rewritten to the publish timestamp by
 // publish.js on every publish, so a browser that cached the previous pair of
 // files always fetches the fresh ones instead of mixing old logic with new
 // data (or vice versa).
@@ -7,7 +7,7 @@ import {
   SKILLS,
   CARRY_LOCATIONS,
   carryLocation,
-} from './game-data.js?v=1788672138314'
+} from './game-data.js?v=1788672202888'
 import {
   abilityMod,
   armourClass,
@@ -31,7 +31,7 @@ import {
   unarmedStrike,
   xpProgress,
   xpTotal,
-} from './character-lib.js?v=1788672138314'
+} from './character-lib.js?v=1788672202888'
 
 const $ = (id) => document.getElementById(id)
 
