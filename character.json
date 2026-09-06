@@ -1,5 +1,5 @@
 {
-  "publishedAt": "2026-09-06T06:10:39.287Z",
+  "publishedAt": "2026-09-06T06:11:41.997Z",
   "character": {
     "id": "38ea9ea5-5162-45ef-9c66-6c0c6b9fbccb",
     "name": "Gnome Paladin",
@@ -469,6 +469,18 @@
         "location": "backpack",
         "consumable": false,
         "magicArmour": false,
+        "notes": ""
+      },
+      {
+        "id": "4f6fef10-fe6f-4294-9b42-41c623fb0ca7",
+        "name": "Cockatrice - worth 400-800",
+        "qty": 10,
+        "unitWeight": 0,
+        "location": "backpack",
+        "consumable": false,
+        "magicArmour": false,
+        "armour": "none",
+        "armourAC": 0,
         "notes": ""
       }
     ],
