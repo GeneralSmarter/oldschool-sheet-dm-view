@@ -4,10 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Character sheet</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style.css?v=1788670616373" />
   </head>
   <body>
     <div class="wrap" id="app"></div>
-    <script type="module" src="./render.js"></script>
+    <!-- 1788670616373 is replaced with the publish timestamp on every publish,
+         so a browser that cached an older render.js/style.css always fetches
+         the fresh pair instead of silently showing a stale DM view. -->
+    <script type="module" src="./render.js?v=1788670616373"></script>
   </body>
 </html>
