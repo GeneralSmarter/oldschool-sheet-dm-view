@@ -10,7 +10,7 @@ import {
   isCarried,
   LIGHT_SOURCE_TERMS,
   HEALERS_KIT_TERMS,
-} from './game-data.js?v=1794732361207'
+} from './game-data.js?v=1794732507935'
 
 export const uid = () =>
   typeof crypto !== 'undefined' && crypto.randomUUID
