@@ -1,11 +1,11 @@
 {
-  "publishedAt": "2026-09-06T06:11:41.997Z",
+  "publishedAt": "2026-11-15T08:46:01.207Z",
   "character": {
     "id": "38ea9ea5-5162-45ef-9c66-6c0c6b9fbccb",
     "name": "Gnome Paladin",
     "race": "Rock Gnome",
     "klass": "Paladin",
-    "level": 1,
+    "level": 2,
     "background": "Folk Hero",
     "alignment": "Lawful Good",
     "deity": "Gaerdal Ironhand",
@@ -472,28 +472,28 @@
         "notes": ""
       },
       {
-        "id": "4f6fef10-fe6f-4294-9b42-41c623fb0ca7",
-        "name": "Cockatrice - worth 400-800",
-        "qty": 10,
-        "unitWeight": 0,
+        "armour": "none",
+        "armourAC": 0,
+        "id": "4e518c87-4618-4522-b4f9-e52369a4e16d",
+        "name": "Spell Scroll - Prot from good and evil",
+        "qty": 1,
+        "unitWeight": 1,
         "location": "backpack",
         "consumable": false,
         "magicArmour": false,
-        "armour": "none",
-        "armourAC": 0,
         "notes": ""
       }
     ],
     "coins": {
       "pp": 0,
-      "gp": 15,
+      "gp": 355,
       "ep": 0,
       "sp": 0,
       "cp": 0
     },
     "hp": {
-      "current": 12,
-      "max": 12,
+      "current": 20,
+      "max": 20,
       "temp": 0
     },
     "hitDice": {
@@ -506,8 +506,8 @@
         "id": "8e2ad695-0d90-46e7-90ed-2f001aee22d2",
         "name": "Lay on Hands",
         "mode": "pool",
-        "max": 5,
-        "current": 5,
+        "max": 10,
+        "current": 10,
         "reset": "long",
         "unit": "HP",
         "notes": "Does NOT cure poison in this campaign, and does not cure disease."
@@ -537,6 +537,83 @@
       "recoveredSelf": false
     },
     "xpLog": [
+      {
+        "id": "60a73d0b-f7f4-4253-bf66-6d668df3b3fb",
+        "label": "Showing up",
+        "amount": 100,
+        "kind": "clever",
+        "earnsXP": true
+      },
+      {
+        "id": "04d90c90-162d-4275-8e45-258191f0118b",
+        "label": "Events of session",
+        "amount": 250,
+        "kind": "clever",
+        "earnsXP": true
+      },
+      {
+        "id": "4c0f4159-dea4-42d8-bef5-39ab153244bc",
+        "label": "Selling Boar",
+        "amount": 37,
+        "kind": "loot",
+        "earnsXP": true
+      },
+      {
+        "id": "e7c41ba0-f58a-462c-b4a9-041f9f89a938",
+        "label": "Boar Hunting Payment",
+        "amount": 45,
+        "kind": "loot",
+        "earnsXP": true
+      },
+      {
+        "id": "ed943555-eae4-4b7e-bc34-25354a45a750",
+        "label": "Boar",
+        "amount": 25,
+        "kind": "kill",
+        "earnsXP": true
+      },
+      {
+        "id": "b2fe94f8-1139-4283-a1b7-4ea567aed28b",
+        "label": "Boar",
+        "amount": 25,
+        "kind": "kill",
+        "earnsXP": true
+      },
+      {
+        "id": "cc05c135-ee4f-40cb-9848-bebe74c73d49",
+        "label": "Boar",
+        "amount": 25,
+        "kind": "kill",
+        "earnsXP": true
+      },
+      {
+        "id": "8c06c1f8-c146-4652-8f5d-262a8ed126b1",
+        "label": "Attempting Mission",
+        "amount": 50,
+        "kind": "clever",
+        "earnsXP": true
+      },
+      {
+        "id": "1909b771-6ae5-4c7a-abd2-bc36ce76730c",
+        "label": "Showing up",
+        "amount": 200,
+        "kind": "clever",
+        "earnsXP": true
+      },
+      {
+        "id": "28e9ba87-591f-4741-9135-9aeba915c1d4",
+        "label": "Killing Jelly",
+        "amount": 225,
+        "kind": "kill",
+        "earnsXP": true
+      },
+      {
+        "id": "ca2d9abb-7aac-4c2b-b8d7-491fe9ec44ce",
+        "label": "Loot sold - Cockatrice",
+        "amount": 350,
+        "kind": "loot",
+        "earnsXP": true
+      },
       {
         "id": "bf993b8c-ce36-40a9-9897-13a947b8b37f",
         "label": "Cockatrice",
